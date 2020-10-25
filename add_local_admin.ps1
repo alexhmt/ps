@@ -1,4 +1,5 @@
 $d = Import-Csv -Delimiter "," data.cvs
+$username = "user"
 
 foreach ($item in $d) {
     Write-Host   $item.Name "------"  $item.Password
